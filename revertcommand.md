@@ -1,5 +1,5 @@
 https://github.com/vcjain/git
-Revert Commonad 
+## Revert Commonad 
  git version
   209  mkdir demo  -->Repository created on Local repository
   210  cd demo/
@@ -25,4 +25,17 @@ Revert Commonad
   230  git revert e198d0d097cbd3eb6e55c6c55ed2c589a1e91b06
   231  git status
   232  git push
-Revert command ended
+## Revert command ended
+## Merage cOmmand start
+git checkout main
+  187  git commit -a -m "1st commit to main"
+  188  git commit -am "1st commit to main"
+  189  git add .
+  190  got commit -m "1st commit to main"
+  191  git commit -m "1st commit to main"
+  192  git push
+  193  clear
+  194  git checkout main
+  195  git merge feature/test
+  196  git push
+## Merge command ended
