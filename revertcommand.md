@@ -39,3 +39,21 @@ git checkout main
   195  git merge feature/test
   196  git push
 ## Merge command ended
+## Rebase Command 
+git checkout -b feature/dev1
+
+  203  git add .
+  204  git commit -m  "2nd commit in dev1 branch"
+  205  git push
+  206  git push --set-upstream origin feature/dev1
+  207  clear
+  208  git checkout main
+  209  git add .
+  210  git commit -m "2nd commit in main"
+  211  git push
+  212  git checkout feature/dev1
+13  git rebase main
+  214  clear
+  215  git checkout main
+  216  git merge feature/dev1
+  217  git push
